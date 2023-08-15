@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     marginLeft: "auto",
   },
   itemName: {
-    fontWeight: 600,
+    fontWeight: "600",
   },
 });
 

@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, FlatList } from "react-native";
-import BasketDishItems from "./BasketDishItems";
+import BasketDishItems from "../../components/BasketDishListItem";
 
 import restaurants from "../../../assets/data/restaurants.json";
 
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 24,
-    fontWeight: 600,
+    fontWeight: "600",
     marginVertical: 10,
   },
   separator: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: "white",
-    fontWeight: 600,
+    fontWeight: "600",
     fontSize: 18,
   },
   youritems: {
