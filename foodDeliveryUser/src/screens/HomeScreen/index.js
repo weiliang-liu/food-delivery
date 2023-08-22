@@ -4,14 +4,14 @@ import restaurants from "../../../assets/data/restaurants.json"
 
 export default function HomeScreen(){
     return (
-        //<View style = {styles.page}>
+        <View style = {styles.page}>
             <FlatList
                 data = {restaurants}
                 renderItem={({item}) => <RestaurantItem restaurant={item}/>}
                 showsHorizontalScrollIndicator = {false}
             />
-        //</View>
-    );
+        </View>
+    );a
 }
 
 const styles =StyleSheet.create({

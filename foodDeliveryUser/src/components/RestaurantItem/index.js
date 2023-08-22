@@ -1,16 +1,19 @@
 import { StyleSheet, Text, Image, View } from "react-native";
 import restaurants from "../../../assets/data/restaurants.json"
+import { useState } from "react";
+import {Asset} from 'expo-asset'
 
 const RestaurantItem = ({restaurant}) => {
-    let path = restaurant.image
+    //[path, setPath] = useState("./pizza.png")
+    //if(restaurant.image != "./pizza.png")
+    //setPath(restaurant.image)
     console.log(restaurant.image)
     return (
         <View style = {styles.restaurantContainer}>
             <Image
                 //need to fix this.
-
-                //source = {require()}
-                source = {require("./pizza.png")}
+                source = {{ uri : restaurant.image}}
+                //source = {require("./pizza.png")}
                 style={styles.image}
             />
             <View style={styles.row}>
@@ -42,11 +45,13 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     title: {
+        left:3,
         fontSize: 16,
-        //fontWeight: "500",
+        fontWeight: "500",
         marginVertical: 5,
     },
     subtitle: {
+        left : 3,
         color: "grey",
     },
     row:{

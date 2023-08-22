@@ -1,5 +1,6 @@
 import { StyleSheet, Text, Image, View, FlatList } from "react-native";
 import restaurants from "../../../assets/data/restaurants.json"
+import MenuItem from "../../components/MenuList";
 import {Ionicons} from "@expo/vector-icons"
 const restaurant = restaurants[0]
 
@@ -21,8 +22,12 @@ const RestaurantDetailPage = () =>{
                     $ {restaurant.deliveryFee}&#8226; {restaurant.minDeliveryTime} -
                     {restaurant.maxDeliveryTime} minutes
                 </Text>
-            </View>
-            
+            </View >
+            <MenuItem item = {restaurants[0]}/>
+            {/* <FlatList
+                data = {restaurants[0]}
+                renderItem={({items}) => <MenuItem item={items}/>}
+            /> */}
         </View>
     )
 }
@@ -45,7 +50,7 @@ const styles = StyleSheet.create({
     },
     title:{
         fontSize:35,
-        fontWeight:"600",
+        fontWeight:"500",
         marginVertical : 10,
     },
     subtitle:{

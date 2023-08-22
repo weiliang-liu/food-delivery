@@ -10,35 +10,35 @@
         "dishes":[
             {
                 "id":"1",
-                "name":"hamburger",
+                "name":"hamburger1",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
-                "name":"hamburger",
+                "id":"2",
+                "name":"hamburger2",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
-                "name":"hamburger",
+                "id":"3",
+                "name":"hamburger3",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
-                "name":"hamburger",
+                "id":"4",
+                "name":"hamburger4",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
-                "name":"hamburger",
+                "id":"5",
+                "name":"hamburger5",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
@@ -54,7 +54,7 @@
         "minDeliveryTime":"25",
         "maxDeliveryTime":"35",
         "rating":"4.3",
-        "image":"",
+        "image":"./pizza.png",
         "dishes":[
             {
                 "id":"1",
@@ -102,7 +102,7 @@
         "minDeliveryTime":"20",
         "maxDeliveryTime":"30",
         "rating":"4.3",
-        "image":"",
+        "image":"./pizza.png",
         "dishes":[
             {
                 "id":"1",
@@ -112,21 +112,21 @@
                 "image":""
             },
             {
-                "id":"1",
+                "id":"2",
                 "name":"hamburger",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
+                "id":"3",
                 "name":"hamburger",
                 "description":"hamburger",
                 "price":"6.8",
                 "image":""
             },
             {
-                "id":"1",
+                "id":"4",
                 "name":"hamburger",
                 "description":"hamburger",
                 "price":"6.8",
