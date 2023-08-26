@@ -4,14 +4,19 @@ import HomeScreen from './src/screens/HomeScreen';
 import RestaurantDetailScreen from './src/screens/RestaurantDetailScreen'
 import RestaurantItem from './src/components/RestaurantItem';
 import restaurants from "./assets/data/restaurants.json"
+import DishDetailsScreen from "./src/screens/DishDetailsScreen";
+import BasketScreen from "./src/screens/BasketScreen";
+import OrderScreen from "./src/screens/OrderScreen";
+import OrderDetailsScreen from "./src/screens/OrderDetailsScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <RestaurantDetailScreen />
-      {/* <HomeScreen/> */}
-      {/* <RestaurantItem restaurant={restaurants[0]}/> */}
-      <StatusBar style="auto" />
+      {/* <DishDetailsScreen /> */}
+      {/* <BasketScreen /> */}
+      {/* <OrderScreen /> */}
+      <OrderDetailsScreen />
+      <StatusBar style="light" />
     </View>
   );
 }
